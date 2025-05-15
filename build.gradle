@@ -26,6 +26,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-actuator'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.cloud:spring-cloud-starter-circuitbreaker-resilience4j'
+	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0'
 	runtimeOnly 'io.micrometer:micrometer-registry-otlp'
 	runtimeOnly 'io.micrometer:micrometer-registry-prometheus'
 	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'

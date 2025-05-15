@@ -25,14 +25,20 @@ O **OpenAPI Hub** é um projeto que fornece uma API centralizada para servir com
    cd openapi-hub
    ```
 
-2. Configure as variáveis de ambiente no arquivo `application.properties` ou `application.yml`.
+2. Configure as variáveis de ambiente no arquivo `application.yml`.
 
 3. Compile e execute o projeto usando Gradle:
    ```bash
    ./gradlew bootRun
    ```
 
-4. Acesse a API em `http://localhost:8080`.
+4. Acesse a API em `http://localhost:8088`.
+
+# Swagger UI
+A documentação da API pode ser acessada pelo Swagger UI no seguinte link:
+
+[http://localhost:8088/swagger-ui/index.html](http://localhost:8088/swagger-ui/index.html)
+
 
 ## Contribuição
 
